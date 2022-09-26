@@ -1,0 +1,5 @@
+peso = float(input("Digite su peso en [Kg] "))
+estatura = float(input("Digite su estatura en [mt] "))
+imc = peso / (estatura**2)
+imcRound = round(imc, 2)
+print("Su imc es igual a: ", imcRound)
